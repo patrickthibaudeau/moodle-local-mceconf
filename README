@@ -1,0 +1,17 @@
+INSTALLATION
+
+1. Before you begin, backup the original lib.php file found in /lib/editor/tinymce/
+2. Copy the lib.php into /lib/editor/tinymce/ replacing the original
+3. Open with a text editor lib.php and change the line public $version = '3.4.2'; to the version your Moodle setup is using.
+4. Copy the mceconf folder to your moodle /local/ folder
+5. Login as an administrator and install.
+6. By default all plugins are turned on. You can leave them all enabled or disabled them as you want by checking unchecking the check boxes.
+7. If you want to add a plugin, add the plugin in to the proper folder. In this case /lib/editor/tinymce/tiny_mce/3.4.2/plugins/
+8. In the settings under Plugins add the plugin name. If you have several plugins, seperate each name with a comma. ex.: phonetic,extension
+9. Choose the row you would like the icon to show up in. Add the name of the plugin. If several plugins, use commas to seperate.
+   If you want a seperator use |. ex. phonetic,|,extension 
+   
+Enjoy!
+
+Patrick Thibaudeau
+oohoo.biz

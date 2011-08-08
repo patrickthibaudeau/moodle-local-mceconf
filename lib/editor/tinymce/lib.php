@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 class tinymce_texteditor extends texteditor {
     /** @var string active version - directory name */
-    public $version = '3.4.2';
+    public $version = '3.4.2'; //Change the value to the proper TinyMCE version that your Moodle setup is using. You can check this in the original lib.php that you were supposed to backup ; )   
 
     public function supported_by_browser() {
         if (check_browser_version('MSIE', 6)) {
