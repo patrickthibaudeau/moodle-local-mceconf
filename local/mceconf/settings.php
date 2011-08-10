@@ -76,7 +76,7 @@ if ($hassiteconfig) { // needs this condition or there is error on login page
             );
     //Text for Third party plugins
     $settings->add(new admin_setting_configtext('mceconf_plugins', get_string('plugins', 'local_mceconf'),
-                    get_string('plugin', 'local_mceconf'), 'advimage,safari,table,style,layer,advhr,advlink,emotions,inlinepopups,searchreplace,paste,directionality,fullscreen,moodlenolink,nonbreaking,contextmenu,insertdatetime,save,iespell,preview,print,noneditable,visualchars,xhtmlxtras,template,pagebreak,spellchecker', PARAM_TEXT));
+                    get_string('plugin', 'local_mceconf'), '', PARAM_TEXT));
     //Row one plugins
     $settings->add(new admin_setting_configtext('mceconf_buttons1_add', get_string('theme_advanced_buttons1_add', 'local_mceconf'),
                     get_string('theme_advanced_buttons1', 'local_mceconf'), '', PARAM_TEXT));
